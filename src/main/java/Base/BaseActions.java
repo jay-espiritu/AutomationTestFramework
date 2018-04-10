@@ -3,6 +3,7 @@ package Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class BaseActions {
 
@@ -39,11 +40,24 @@ public class BaseActions {
     public void click(By locator) {
         find(locator).click();
     }
-    
+
     public void type(String inputText, By locator) {
         find(locator).sendKeys(inputText);
     }
-    
+
+    public void selectValueFromDropdown(By locator, String inputValue) {
+        Select value = new Select(find(locator));
+        value.selectByVisibleText(inputValue);
+    }
+
+    public void selectInputFromDropdown(By locator, int inputValue) {
+        Select value = new Select(find(locator));
+        value.selectByIndex(inputValue);
+    }
+
+    /**
+     * Assertion methods
+     */
     public Boolean isDisplayed(By locator) {
         try {
             return find(locator).isDisplayed();
