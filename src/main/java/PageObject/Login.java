@@ -1,6 +1,6 @@
 package PageObject;
 
-import CommonAction.BaseActions;
+import Base.BaseActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import static org.junit.Assert.assertTrue;
