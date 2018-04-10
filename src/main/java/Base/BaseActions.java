@@ -1,9 +1,12 @@
 package Base;
 
+import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
 
 public class BaseActions {
 
@@ -55,6 +58,34 @@ public class BaseActions {
         value.selectByIndex(inputValue);
     }
 
+    public void selectFromRadioButtonWithValue(By locator, String inputValue) {
+        List<WebElement> checkboxValue = driver.findElements(locator);
+
+        int checkboxSize = checkboxValue.size();
+
+        for(int i=0; i < checkboxSize ; i++ ){
+            String stringValue = checkboxValue.get(i).getAttribute(inputValue);
+            if (stringValue.equalsIgnoreCase(inputValue)){
+                checkboxValue.get(i).click();
+                break;
+            }
+        }
+    }
+
+    public void selectFromRadioButton(By locator, int inputValue) {
+        List<WebElement> radioButton = driver.findElements(locator);
+
+        boolean radioStatus = false;
+
+        radioStatus = radioButton.get(0).isSelected();
+
+        if(radioStatus = true){
+            radioButton.get(inputValue).click();
+        }else{
+            radioButton.get(0).click();
+
+        }
+    }
     /**
      * Assertion methods
      */
@@ -65,5 +96,7 @@ public class BaseActions {
             return false;
         }
     }
+
+
 
 }
