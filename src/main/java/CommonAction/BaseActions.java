@@ -57,7 +57,6 @@ public class BaseActions {
                 ());
         assertThat(contentType, is("application/octet-stream"));
         assertThat(contentLength, is(not(0)));
-
     }
 
 
