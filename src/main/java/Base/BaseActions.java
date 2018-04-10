@@ -153,7 +153,20 @@ public class BaseActions {
             return false;
         }
     }
-
-
+    
+    public Boolean isSelected(By locator) {
+        try {
+            return find(locator).isSelected();
+        } catch (org.openqa.selenium.NoSuchElementException exception) {
+            return false;
+        }
+    }
+    
+    public Boolean isEnabled(By locator) {
+        try {
+            return find(locator).isEnabled();
+        } catch (org.openqa.selenium.NoSuchElementException exception) {
+            return false;
+        }
 
 }
