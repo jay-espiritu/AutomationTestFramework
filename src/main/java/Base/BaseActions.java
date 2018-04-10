@@ -12,7 +12,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -125,10 +127,22 @@ public class BaseActions {
         (new Actions(driver)).dragAndDrop(from, to).perform();
     }
 
-    public void implicittWaitFor(int value) {
+    public void implicitWaitFor(int value) {
         driver.manage().timeouts().implicitlyWait(value, TimeUnit.SECONDS);
     }
 
+    public void explicitWaitFor(By locator, int value) {
+        WebDriverWait wait = new WebDriverWait(driver, value);
+        wait.until(ExpectedConditions.elementToBeClickable(locator));
+    }
+    
+    public void sleepFor(int value) {
+        try {
+            Thread.sleep(value);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
     /**
      * Assertion methods
      */
