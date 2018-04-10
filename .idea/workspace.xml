@@ -78,8 +78,8 @@
       <file leaf-file-name="BaseActions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="138" column="4" lean-forward="true" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+            <state relative-caret-position="404">
+              <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
               <folding>
                 <element signature="method#selectValueFromDropdown#0;class#BaseActions#0" />
                 <element signature="method#selectInputFromDropdown#0;class#BaseActions#0" />
@@ -89,6 +89,10 @@
                 <element signature="method#downloadFile#0;class#BaseActions#0" />
                 <element signature="method#dragAndDrop#0;class#BaseActions#0" />
                 <element signature="method#explicitWaitFor#0;class#BaseActions#0" />
+                <element signature="method#isDisplayed#0;class#BaseActions#0" />
+                <element signature="method#isSelected#0;class#BaseActions#0" />
+                <element signature="e#5538#5539#0" expanded="true" />
+                <element signature="e#5602#5603#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -591,7 +595,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -647,6 +651,10 @@
             <element signature="method#downloadFile#0;class#BaseActions#0" />
             <element signature="method#dragAndDrop#0;class#BaseActions#0" />
             <element signature="method#explicitWaitFor#0;class#BaseActions#0" />
+            <element signature="method#isDisplayed#0;class#BaseActions#0" />
+            <element signature="method#isSelected#0;class#BaseActions#0" />
+            <element signature="e#5538#5539#0" expanded="true" />
+            <element signature="e#5602#5603#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -919,6 +927,10 @@
             <element signature="method#downloadFile#0;class#BaseActions#0" />
             <element signature="method#dragAndDrop#0;class#BaseActions#0" />
             <element signature="method#explicitWaitFor#0;class#BaseActions#0" />
+            <element signature="method#isDisplayed#0;class#BaseActions#0" />
+            <element signature="method#isSelected#0;class#BaseActions#0" />
+            <element signature="e#5538#5539#0" expanded="true" />
+            <element signature="e#5602#5603#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -958,8 +970,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="138" column="4" lean-forward="true" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+        <state relative-caret-position="404">
+          <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
           <folding>
             <element signature="method#selectValueFromDropdown#0;class#BaseActions#0" />
             <element signature="method#selectInputFromDropdown#0;class#BaseActions#0" />
@@ -969,6 +981,10 @@
             <element signature="method#downloadFile#0;class#BaseActions#0" />
             <element signature="method#dragAndDrop#0;class#BaseActions#0" />
             <element signature="method#explicitWaitFor#0;class#BaseActions#0" />
+            <element signature="method#isDisplayed#0;class#BaseActions#0" />
+            <element signature="method#isSelected#0;class#BaseActions#0" />
+            <element signature="e#5538#5539#0" expanded="true" />
+            <element signature="e#5602#5603#0" expanded="true" />
           </folding>
         </state>
       </provider>
