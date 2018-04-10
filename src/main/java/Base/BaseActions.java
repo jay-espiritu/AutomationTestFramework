@@ -11,9 +11,11 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.core.IsNot.not;
@@ -94,7 +96,6 @@ public class BaseActions {
             radioButton.get(inputValue).click();
         }else{
             radioButton.get(0).click();
-
         }
     }
 
@@ -116,6 +117,16 @@ public class BaseActions {
                 ());
         assertThat(contentType, is("application/octet-stream"));
         assertThat(contentLength, is(not(0)));
+    }
+
+    public void dragAndDrop(By locatorElement, By locatorTarget) {
+        WebElement from = find(locatorElement);
+        WebElement to = find(locatorTarget);
+        (new Actions(driver)).dragAndDrop(from, to).perform();
+    }
+
+    public void implicittWaitFor(int value) {
+        driver.manage().timeouts().implicitlyWait(value, TimeUnit.SECONDS);
     }
 
     /**

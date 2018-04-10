@@ -30,23 +30,13 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5d2d2d-d896-432f-a00e-7f97531fdb58" name="DTFS-8 Add common actions (visit, click, etc)" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TestFrameworkSelenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestFrameworkSelenium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CommonAction/BaseActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PageObject/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JUnit/TestLogin.class" beforeDir="false" />
-    </list>
     <list id="988eec22-9917-4675-b514-c95554b467e7" name="Default" comment="" />
     <list id="5a70dcc4-95a3-4f02-bb70-dea939f6ea38" name="DTFS-1 Configure Selenium to run on a single machine locally" comment="" />
+    <list default="true" id="fb5d2d2d-d896-432f-a00e-7f97531fdb58" name="DTFS-8 Add common actions (visit, click, etc)" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,11 +47,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestLogin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <folding>
+                <element signature="e#1180#1181#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseActions.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="128" column="7" lean-forward="true" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
+              <folding>
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,10 +118,10 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/PageObject/Login.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/CommonAction/BaseActions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" />
       </list>
     </option>
   </component>
@@ -252,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestLogin.failed">
+  <component name="RunManager" selected="JUnit.TestLogin.succeeded">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -388,8 +418,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestLogin.failed" />
         <item itemvalue="JUnit.TestLogin.succeeded" />
+        <item itemvalue="JUnit.TestLogin.failed" />
         <item itemvalue="JUnit.TestLogin" />
         <item itemvalue="JUnit.TestLogin.failed" />
         <item itemvalue="JUnit.TestLogin.succeeded" />
@@ -457,9 +487,6 @@
     </servers>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLogin - 2018.04.06 at 19h 20m 51s.xml">
-      <configuration name="TestLogin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestLogin - 2018.04.06 at 19h 22m 06s.xml">
       <configuration name="TestLogin" configurationId="JUnit" />
     </history-entry>
@@ -481,6 +508,15 @@
     <history-entry file="TestLogin_succeeded - 2018.04.06 at 19h 25m 37s.xml">
       <configuration name="TestLogin.succeeded" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestLogin_succeeded - 2018.04.10 at 15h 40m 11s.xml">
+      <configuration name="TestLogin.succeeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLogin_succeeded - 2018.04.10 at 15h 40m 35s.xml">
+      <configuration name="TestLogin.succeeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLogin_succeeded - 2018.04.10 at 15h 41m 14s.xml">
+      <configuration name="TestLogin.succeeded" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,6 +529,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="412" y="282" width="1535" height="786" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
@@ -502,12 +539,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50305086" side_tool="true" weight="0.3276923" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32949153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49694917" weight="0.3276923" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49694917" visible="true" weight="0.3276923" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49898306" visible="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49898306" weight="0.3276923" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18508475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18508475" />
       <window_info anchor="bottom" id="YouTrack" order="8" sideWeight="0.49966103" weight="0.3276923" />
       <window_info anchor="bottom" id="TeamCity" order="8" weight="0.3276923" />
       <window_info id="Learn" order="3" />
@@ -522,17 +559,25 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006784" side_tool="true" visible="true" weight="0.32819724" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18317503" />
       <window_info active="true" anchor="bottom" id="GitLabIntegration" order="8" visible="true" weight="0.3289689" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49694917" weight="0.3276923" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="TeamCity" order="8" weight="0.3289689" />
@@ -575,7 +620,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -600,6 +645,8 @@
           <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -623,7 +670,8 @@
         <state relative-caret-position="170">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -634,6 +682,8 @@
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -888,43 +938,18 @@
         <state relative-caret-position="320">
           <caret line="87" column="14" lean-forward="true" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="method#selectFromRadioButtonWithValue#0;class#BaseActions#0" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CommonAction/BaseAssertions.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CommonAction/BaseActions.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="228">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -937,10 +962,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="188">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -948,7 +975,22 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="128" column="7" lean-forward="true" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
+          <folding>
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

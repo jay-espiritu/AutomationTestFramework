@@ -16,7 +16,7 @@ public class TestLogin {
     @Before
     public void setUp() {
         System.setProperty("webdriver.chrome.driver",
-                System.getProperty("user.dir") + "/vendor/chromedriver");
+                System.getProperty("user.dir") + "/vendor/chromedriver.exe");
         driver = new ChromeDriver();
         login = new Login(driver);
     }
