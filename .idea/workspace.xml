@@ -30,7 +30,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
+
     <list id="5a70dcc4-95a3-4f02-bb70-dea939f6ea38" name="DTFS-1 Configure Selenium to run on a single machine locally" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_3_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
@@ -87,10 +87,10 @@
     </list>
     <list default="true" id="fb5d2d2d-d896-432f-a00e-7f97531fdb58" name="DTFS-8 Add common actions (visit, click, etc)" comment="" />
     <list id="988eec22-9917-4675-b514-c95554b467e7" name="Default" comment="" />
-=======
+
     <list id="988eec22-9917-4675-b514-c95554b467e7" name="Default" comment="" />
     <list default="true" id="ff81bc2c-968e-49b4-a63c-cdebdfc6a9bd" name="DTFS-8 Add common actions (visit, click, etc)" comment="" />
->>>>>>> master
+
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,12 +102,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BaseActions.java" pinned="false" current-in-tab="true">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/CommonAction/BaseActions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+
+        <entry file="file://$PROJECT_DIR$/src/main/java/CommonAction/BaseActions.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="329"/>
               <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-=======
+
         <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -134,7 +134,7 @@
                 <element signature="e#973#974#0" expanded="true" />
                 <element signature="method#selectFromRadioButtonWithValue#0;class#BaseActions#0" />
               </folding>
->>>>>>> master
+
             </state>
           </provider>
         </entry>
@@ -163,11 +163,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/PageObject/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java" />
-<<<<<<< HEAD
+
         <option value="$PROJECT_DIR$/src/main/java/CommonAction/BaseActions.java" />
-=======
+
         <option value="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" />
->>>>>>> master
+
       </list>
     </option>
   </component>
@@ -239,11 +239,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+
               <item name="CommonAction" type="462c0819:PsiDirectoryNode" />
-=======
+
               <item name="Base" type="462c0819:PsiDirectoryNode" />
->>>>>>> master
+
             </path>
           </expand>
           <select />
@@ -529,28 +529,28 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-<<<<<<< HEAD
+
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006784" side_tool="true" weight="0.32819724" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932158" weight="0.32819724" />
-=======
+
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006784" side_tool="true" visible="true" weight="0.32819724" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
->>>>>>> master
+
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49932158" visible="true" weight="0.32819724" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18317503" />
-<<<<<<< HEAD
+
       <window_info anchor="bottom" id="YouTrack" order="8" sideWeight="0.49932158" weight="0.32819724" />
       <window_info anchor="bottom" id="TeamCity" order="8" sideWeight="0.49932158" weight="0.32819724" />
-=======
+
       <window_info anchor="bottom" id="YouTrack" order="8" weight="0.32819724" />
       <window_info anchor="bottom" id="TeamCity" order="8" weight="0.3289689" />
->>>>>>> master
+
       <window_info id="Learn" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -558,10 +558,10 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-<<<<<<< HEAD
+
       <window_info anchor="right" id="Palette" order="3" />
-=======
->>>>>>> master
+
+
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -602,15 +602,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-<<<<<<< HEAD
-  <component name="XDebuggerManager">
+
+  <component name="XDebuggerManager"/>
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
-=======
+
   <component name="VcsManagerConfiguration">
     <confirmRemoveEmptyChangelist value="2" />
->>>>>>> master
+
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -634,15 +634,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-<<<<<<< HEAD
+
           <folding>
             <element signature="e#1073#1074#0" expanded="true" />
             <element signature="e#1130#1131#0" expanded="true" />
             <element signature="e#1180#1181#0" expanded="true" />
             <element signature="e#1237#1238#0" expanded="true" />
           </folding>
-=======
->>>>>>> master
+
+
         </state>
       </provider>
     </entry>
@@ -652,11 +652,11 @@
           <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-<<<<<<< HEAD
+
             <element signature="e#1198#1199#0" expanded="true" />
             <element signature="e#1227#1228#0" expanded="true" />
-=======
->>>>>>> master
+
+
           </folding>
         </state>
       </provider>
@@ -793,7 +793,7 @@
           <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-<<<<<<< HEAD
+
             <element signature="e#1198#1199#0" expanded="true" />
             <element signature="e#1227#1228#0" expanded="true" />
           </folding>
@@ -928,8 +928,8 @@
             <element signature="e#1130#1131#0" expanded="true" />
             <element signature="e#1180#1181#0" expanded="true" />
             <element signature="e#1237#1238#0" expanded="true" />
-=======
->>>>>>> master
+
+
           </folding>
         </state>
       </provider>
