@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+import net.bytebuddy.asm.Advice;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpHead;
@@ -31,49 +32,49 @@ public class BaseActions {
         this.driver = driver;
     }
     
-    public void visit(String url) {
+    protected void NavigateTo(String url) {
         driver.get(url);
     }
-    
-    public void clearCookies() {
+
+    protected void ClearCookies() {
         driver.manage().deleteAllCookies();
     }
-    
-    public void refreshPage() {
+
+    protected void RefreshPage() {
         driver.navigate().refresh();
     }
-    
-    public void navigateBackPage() {
+
+    protected void NavigateBackPage() {
         driver.navigate().back();
     }
-    
-    public void navigateForwardPage() {
+
+    protected void NavigateForwardPage() {
         driver.navigate().forward();
     }
-    
-    public WebElement find(By locator) {
+
+    protected WebElement Find(By locator) {
         return driver.findElement(locator);
     }
-    
-    public void click(By locator) {
-        find(locator).click();
+
+    protected void Clicked(By locator) {
+        Find(locator).click();
     }
-    
-    public void type(String inputText, By locator) {
-        find(locator).sendKeys(inputText);
+
+    protected void EnterText(String inputText, By locator) {
+        Find(locator).sendKeys(inputText);
     }
-    
-    public void selectValueFromDropdown(By locator, String inputValue) {
-        Select value = new Select(find(locator));
+
+    protected void SelectValueFromDropdown(By locator, String inputValue) {
+        Select value = new Select(Find(locator));
         value.selectByVisibleText(inputValue);
     }
-    
-    public void selectInputFromDropdown(By locator, int inputValue) {
-        Select value = new Select(find(locator));
+
+    protected void SelectInputFromDropdown(By locator, int inputValue) {
+        Select value = new Select(Find(locator));
         value.selectByIndex(inputValue);
     }
-    
-    public void selectFromRadioButtonWithValue(By locator, String inputValue) {
+
+    protected void SelectFromRadioButtonWithValue(By locator, String inputValue) {
         List<WebElement> checkboxValue = driver.findElements(locator);
         
         int checkboxSize = checkboxValue.size();
@@ -86,8 +87,8 @@ public class BaseActions {
             }
         }
     }
-    
-    public void selectFromRadioButton(By locator, int inputValue) {
+
+    protected void SelectFromRadioButton(By locator, int inputValue) {
         List<WebElement> radioButton = driver.findElements(locator);
         
         boolean radioStatus = false;
@@ -100,15 +101,15 @@ public class BaseActions {
             radioButton.get(0).click();
         }
     }
-    
-    public void uploadFile(By UploadLocator, By SubmitLocator, String fileName, String filePath) {
+
+    protected void UploadFile(By UploadLocator, By SubmitLocator, String fileName, String filePath) {
         File file = new File(fileName);
         filePath = file.getAbsolutePath();
-        type(filePath, UploadLocator);
-        click(SubmitLocator);
+        EnterText(filePath, UploadLocator);
+        Clicked(SubmitLocator);
     }
-    
-    public void downloadFile() throws IOException {
+
+    protected void DownloadFile() throws IOException {
         String link = driver.findElement(By.cssSelector(".example a:nth-of-type(1)")).
                                                                                              getAttribute("href");
         HttpClient httpClient = HttpClientBuilder.create().build();
@@ -120,23 +121,23 @@ public class BaseActions {
         assertThat(contentType, is("application/octet-stream"));
         assertThat(contentLength, is(not(0)));
     }
-    
-    public void dragAndDrop(By locatorElement, By locatorTarget) {
-        WebElement from = find(locatorElement);
-        WebElement to = find(locatorTarget);
+
+    protected void DragAndDrop(By locatorElement, By locatorTarget) {
+        WebElement from = Find(locatorElement);
+        WebElement to = Find(locatorTarget);
         (new Actions(driver)).dragAndDrop(from, to).perform();
     }
-    
-    public void implicitWaitFor(int value) {
+
+    protected void ImplicitWaitFor(int value) {
         driver.manage().timeouts().implicitlyWait(value, TimeUnit.SECONDS);
     }
-    
-    public void explicitWaitFor(By locator, int value) {
+
+    protected void ExplicitWaitFor(By locator, int value) {
         WebDriverWait wait = new WebDriverWait(driver, value);
         wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
-    
-    public void sleepFor(int value) {
+
+    protected void SleepFor(int value) {
         try {
             Thread.sleep(value);
         } catch (InterruptedException e) {
@@ -147,34 +148,31 @@ public class BaseActions {
     /**
      * Assertion methods
      */
-    public Boolean isDisplayed(By locator) {
+    protected Boolean isDisplayed(By locator) {
         try {
-            return find(locator).isDisplayed();
+            return Find(locator).isDisplayed();
         } catch (org.openqa.selenium.NoSuchElementException exception) {
             return false;
         }
     }
-    
-    public Boolean isSelected(By locator) {
-        try {
-            return find(locator).isSelected();
-        } catch (org.openqa.selenium.NoSuchElementException exception) {
-            return false;
-        }
-    }
-    
-    public Boolean isEnabled(By locator) {
-        try {
-            return find(locator).isEnabled();
-        } catch (org.openqa.selenium.NoSuchElementException exception) {
-            return false;
-        }
-    }
-    
-    public void assertText(By locator, String expected) {
-        assertEquals(expected, find(locator).getText());
-    }
-    
-    
 
+    protected Boolean isSelected(By locator) {
+        try {
+            return Find(locator).isSelected();
+        } catch (org.openqa.selenium.NoSuchElementException exception) {
+            return false;
+        }
+    }
+
+    protected Boolean isEnabled(By locator) {
+        try {
+            return Find(locator).isEnabled();
+        } catch (org.openqa.selenium.NoSuchElementException exception) {
+            return false;
+        }
+    }
+
+    protected void AssertText(By locator, String expected) {
+        assertEquals(expected, Find(locator).getText());
+    }
 }
