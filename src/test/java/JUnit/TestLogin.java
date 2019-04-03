@@ -21,14 +21,14 @@ public class TestLogin {
         login = new Login(driver);
     }
     
-    @Test
+    //@Test
     public void succeeded() {
         login.with("tomsmith", "SuperSecretPassword!");
         assertTrue("success message not present",
                 login.successMessagePresent());
     }
     
-    @Test
+    //@Test
     public void failed() {
         login.with("tomsmith", "bad password");
         assertTrue("failure message wasn't present after providing bogus credentials",
