@@ -3,11 +3,18 @@ package PageObject;
 import Base.BaseActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
 import static org.junit.Assert.assertTrue;
 
 public class Login extends BaseActions {
-    
-    private By loginFormLocator = By.id("login");
+
+    @FindBy(how = How.ID, using  ="login")
+    private WebElement loginFormLocator;
+    private By byLoginFormLocator;
+
     private By usernameLocator  = By.id("username");
     private By passwordLocator  = By.id("password");
     private By submitButton     = By.cssSelector("button");
@@ -18,11 +25,11 @@ public class Login extends BaseActions {
         super(driver);
         NavigateTo("http://the-internet.herokuapp.com/login");
         assertTrue("The login form is not present",
-                isDisplayed(loginFormLocator));
+                isDisplayed(byLoginFormLocator));
     }
     
     public void with(String username, String password) {
-        EnterText(username, usernameLocator);
+        EnterText(username, byLoginFormLocator);
         EnterText(password, passwordLocator);
         Clicked(submitButton);
         try {

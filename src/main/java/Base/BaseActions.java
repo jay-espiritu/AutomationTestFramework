@@ -10,6 +10,7 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpHead;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -25,13 +26,13 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 public class BaseActions {
-    
+
     private WebDriver driver;
-    
+
     public BaseActions(WebDriver driver) {
         this.driver = driver;
     }
-    
+
     protected void NavigateTo(String url) {
         driver.get(url);
     }
@@ -144,7 +145,12 @@ public class BaseActions {
             e.printStackTrace();
         }
     }
-    
+
+    /**
+     * Wait commands/methods
+     */
+
+
     /**
      * Assertion methods
      */
@@ -175,4 +181,36 @@ public class BaseActions {
     protected void AssertText(By locator, String expected) {
         assertEquals(expected, Find(locator).getText());
     }
+
+    /**
+     * JavaScript commands/methods
+     */
+    protected void ExecuteJavaScript(String scriptToExectue)
+    {
+        try
+        {
+            JavascriptExecutor js =(JavascriptExecutor) driver;
+            if(js instanceof WebDriver) {
+                js.executeScript(scriptToExectue);
+            }
+        } catch (IllegalStateException)
+        {
+            throw new IllegalStateException("This driver does not support JavaScript!");
+        }
+    }
+
+    protected void JavaScriptClick(WebElement element)
+    {
+        try {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].click();", element);
+        } catch (Exception e)
+        {
+           System.out.println("An exception occurred performing java script click");
+        }
+    }
+
+    /**
+     * Keyboard/mouse commands/methods
+     */
 }
