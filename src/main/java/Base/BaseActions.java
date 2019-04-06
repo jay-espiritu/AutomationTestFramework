@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import net.bytebuddy.asm.Advice;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpHead;
@@ -14,6 +13,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -133,8 +133,8 @@ public class BaseActions {
         driver.manage().timeouts().implicitlyWait(value, TimeUnit.SECONDS);
     }
 
-    protected void ExplicitWaitFor(By locator, int value) {
-        WebDriverWait wait = new WebDriverWait(driver, value);
+    protected void ExplicitWaitFor(By locator, int timeout) {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
         wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
@@ -149,7 +149,38 @@ public class BaseActions {
     /**
      * Wait commands/methods
      */
+    protected void WaitTillElementVisible(By locator, int timeout)
+    {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        } catch (Exception e)
+        {
+            System.out.println(e);
+        }
+    }
 
+    protected void WaitTillElementIsInvisible(By locator, int timeout)
+    {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+        try {
+            wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+        } catch (Exception e)
+        {
+            System.out.println(e);
+        }
+    }
+
+    protected void WaitTillElementIsClickable(By locator, int timeout)
+    {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+        try {
+            wait.until(ExpectedConditions.elementToBeClickable(locator));
+        } catch (Exception e)
+        {
+            System.out.println(e);
+        }
+    }
 
     /**
      * Assertion methods
@@ -193,7 +224,7 @@ public class BaseActions {
             if(js instanceof WebDriver) {
                 js.executeScript(scriptToExectue);
             }
-        } catch (IllegalStateException)
+        } catch (IllegalStateException error)
         {
             throw new IllegalStateException("This driver does not support JavaScript!");
         }
@@ -206,7 +237,18 @@ public class BaseActions {
             js.executeScript("arguments[0].click();", element);
         } catch (Exception e)
         {
-           System.out.println("An exception occurred performing java script click");
+           System.out.println("An exception occurred performing JavaScript click");
+        }
+    }
+
+    protected void ScrollToView(WebElement element)
+    {
+        try {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].scrollIntoView(true);", element);
+        } catch (Exception e)
+        {
+            System.out.println("An exception occurred performing JavaScript scroll");
         }
     }
 

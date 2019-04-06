@@ -77,12 +77,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="191" column="63" lean-forward="true" selection-start-line="191" selection-start-column="12" selection-end-line="191" selection-end-column="63" />
+            <state relative-caret-position="352">
+              <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
                 <element signature="e#1435#1436#0" expanded="true" />
                 <element signature="e#1485#1486#0" expanded="true" />
                 <element signature="method#SelectFromRadioButtonWithValue#0;class#BaseActions#0" />
@@ -94,7 +92,7 @@
                 <element signature="method#isDisplayed#0;class#BaseActions#0" />
                 <element signature="method#isSelected#0;class#BaseActions#0" />
                 <element signature="method#isEnabled#0;class#BaseActions#0" />
-                <element signature="e#5714#5715#0" expanded="true" />
+                <element signature="e#6716#6717#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +110,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>find</find>
+      <find>WebDriverWait</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,6 +183,27 @@
               <item name="TestFrameworkSelenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestFrameworkSelenium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameworkSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameworkSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameworkSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameworkSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameworkSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameworkSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestFrameworkSelenium" type="b2602c69:ProjectViewProjectNode" />
@@ -457,8 +477,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.489533" visible="true" weight="0.17803837" />
-      <window_info id="Structure" order="1" sideWeight="0.510467" side_tool="true" visible="true" weight="0.17803837" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.489533" visible="true" weight="0.17803837" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.510467" side_tool="true" visible="true" weight="0.17803837" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -467,15 +487,15 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.32719395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49733475" weight="0.3445287" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49573562" weight="0.29144096" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50586355" side_tool="true" visible="true" weight="0.32719395" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49755502" weight="0.3281075" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4946695" weight="0.32719395" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49413645" visible="true" weight="0.32719395" />
       <window_info anchor="bottom" id="YouTrack" order="11" weight="0.32819724" />
       <window_info anchor="bottom" id="GitLabIntegration" order="12" sideWeight="0.4978678" weight="0.33694476" />
       <window_info anchor="bottom" id="TeamCity" order="13" sideWeight="0.49946696" weight="0.32827735" />
@@ -610,12 +630,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="191" column="63" lean-forward="true" selection-start-line="191" selection-start-column="12" selection-end-line="191" selection-end-column="63" />
+        <state relative-caret-position="352">
+          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
             <element signature="e#1435#1436#0" expanded="true" />
             <element signature="e#1485#1486#0" expanded="true" />
             <element signature="method#SelectFromRadioButtonWithValue#0;class#BaseActions#0" />
@@ -627,7 +645,7 @@
             <element signature="method#isDisplayed#0;class#BaseActions#0" />
             <element signature="method#isSelected#0;class#BaseActions#0" />
             <element signature="method#isEnabled#0;class#BaseActions#0" />
-            <element signature="e#5714#5715#0" expanded="true" />
+            <element signature="e#6716#6717#0" expanded="true" />
           </folding>
         </state>
       </provider>
