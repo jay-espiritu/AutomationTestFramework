@@ -11,10 +11,7 @@ import static org.junit.Assert.assertTrue;
 
 public class Login extends BaseActions {
 
-    @FindBy(how = How.ID, using  ="login")
-    private WebElement loginFormLocator;
-    private By byLoginFormLocator;
-
+    private By loginFormLocator = By.id("login");
     private By usernameLocator  = By.id("username");
     private By passwordLocator  = By.id("password");
     private By submitButton     = By.cssSelector("button");
@@ -25,11 +22,11 @@ public class Login extends BaseActions {
         super(driver);
         NavigateTo("http://the-internet.herokuapp.com/login");
         assertTrue("The login form is not present",
-                isDisplayed(byLoginFormLocator));
+                isDisplayed(loginFormLocator));
     }
     
     public void with(String username, String password) {
-        EnterText(username, byLoginFormLocator);
+        EnterText(username, usernameLocator);
         EnterText(password, passwordLocator);
         Clicked(submitButton);
         try {

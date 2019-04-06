@@ -31,7 +31,23 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5d2d2d-d896-432f-a00e-7f97531fdb58" name="DTFS-8 Add common actions (visit, click, etc)" comment="Added common actions in BaseAction class" />
+    <list default="true" id="fb5d2d2d-d896-432f-a00e-7f97531fdb58" name="DTFS-8 Add common actions (visit, click, etc)" comment="Added common actions in BaseAction class">
+      <change afterPath="$PROJECT_DIR$/PackageInstall.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageInstall.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFrameworkSelenium-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/BaseActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JUnit/TestLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JUnit/TestLogin.class" afterDir="false" />
+    </list>
     <list id="988eec22-9917-4675-b514-c95554b467e7" name="Default" comment="" />
     <list id="5a70dcc4-95a3-4f02-bb70-dea939f6ea38" name="DTFS-1 Configure Selenium to run on a single machine locally" comment="" />
     <list id="261f5993-e43f-4b1d-b8d0-168a1652c538" name="Update packages" comment="Update packages&#10;&#10;(cherry picked from commit b439e70df2e38a35f8dea874f0272a1917e6998f)">
@@ -55,30 +71,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="191">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="293" column="29" selection-start-line="293" selection-start-column="29" selection-end-line="293" selection-end-column="29" />
+            <state relative-caret-position="191">
+              <caret line="194" column="22" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1435#1436#0" expanded="true" />
-                <element signature="e#1485#1486#0" expanded="true" />
-                <element signature="method#SelectFromRadioButtonWithValue#0;class#BaseActions#0" />
-                <element signature="method#SelectFromRadioButton#0;class#BaseActions#0" />
-                <element signature="method#UploadFile#0;class#BaseActions#0" />
-                <element signature="method#DownloadFile#0;class#BaseActions#0" />
-                <element signature="method#DragAndDrop#0;class#BaseActions#0" />
-                <element signature="method#SleepFor#0;class#BaseActions#0" />
-                <element signature="method#isDisplayed#0;class#BaseActions#0" />
-                <element signature="method#isSelected#0;class#BaseActions#0" />
-                <element signature="method#isEnabled#0;class#BaseActions#0" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1224#1225#0" expanded="true" />
+                <element signature="e#1265#1266#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1566#1567#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#1677#1678#0" expanded="true" />
+                <element signature="e#4333#4334#0" expanded="true" />
+                <element signature="e#4415#4416#0" expanded="true" />
+                <element signature="e#6704#6705#0" expanded="true" />
                 <element signature="e#6767#6768#0" expanded="true" />
               </folding>
             </state>
@@ -88,17 +117,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="250">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PackageInstall.bat">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="79">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,10 +164,11 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/CommonAction/BaseActions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObject/Login.java" />
+        <option value="$PROJECT_DIR$/PackageInstall.cmd" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObject/Login.java" />
       </list>
     </option>
   </component>
@@ -215,6 +248,14 @@
               <item name="TestFrameworkSelenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestFrameworkSelenium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameworkSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameworkSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,8 +287,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="start.from.branch" value="origin/master" />
     <property name="tasks.open.task.update.state.enabled" value="true" />
   </component>
@@ -270,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestLogin.failed">
+  <component name="RunManager" selected="JUnit.All in TestFrameworkSelenium">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -279,6 +320,15 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in TestFrameworkSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestFrameworkSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -362,14 +412,15 @@
       <item itemvalue="JUnit.TestLogin" />
       <item itemvalue="JUnit.TestLogin.succeeded" />
       <item itemvalue="JUnit.TestLogin.failed" />
+      <item itemvalue="JUnit.All in TestFrameworkSelenium" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in TestFrameworkSelenium" />
         <item itemvalue="JUnit.TestLogin.failed" />
         <item itemvalue="JUnit.TestLogin.succeeded" />
         <item itemvalue="JUnit.TestLogin" />
         <item itemvalue="JUnit.TestLogin.failed" />
-        <item itemvalue="JUnit.TestLogin.succeeded" />
       </list>
     </recent_temporary>
   </component>
@@ -483,8 +534,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48970747" visible="true" weight="0.17803837" />
-      <window_info id="Structure" order="1" sideWeight="0.51029253" side_tool="true" visible="true" weight="0.17803837" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5184502" visible="true" weight="0.14285715" />
+      <window_info id="Structure" order="1" sideWeight="0.51029253" side_tool="true" weight="0.17803837" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -493,17 +544,18 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.32719395" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4968017" weight="0.3445287" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49573562" weight="0.29144096" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5079957" side_tool="true" weight="0.32719395" />
+      <window_info anchor="bottom" x="97" y="671" width="1797" height="302" id="Messages" order="2" sideWeight="0.48636615" weight="0.32719395" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49093816" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4968017" weight="0.3445287" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49573562" weight="0.29144096" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49755502" weight="0.3281075" />
       <window_info anchor="bottom" id="YouTrack" order="10" weight="0.32819724" />
       <window_info anchor="bottom" id="GitLabIntegration" order="11" sideWeight="0.4978678" weight="0.33694476" />
       <window_info anchor="bottom" id="TeamCity" order="12" sideWeight="0.49946696" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5090618" side_tool="true" visible="true" weight="0.32719395" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -512,8 +564,7 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.16364606" />
-      <window_info anchor="right" id="Messages" order="9" sideWeight="0.49200428" side_tool="true" weight="0.32719395" />
+      <window_info anchor="right" id="Maven" order="8" sideWeight="0.54821235" visible="true" weight="0.09808102" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -603,55 +654,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/Login.java">
+    <entry file="file://$PROJECT_DIR$/PackageInstall.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageInstall.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PackageInstall.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="293" column="29" selection-start-line="293" selection-start-column="29" selection-end-line="293" selection-end-column="29" />
+        <state relative-caret-position="191">
+          <caret line="194" column="22" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1435#1436#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="method#SelectFromRadioButtonWithValue#0;class#BaseActions#0" />
-            <element signature="method#SelectFromRadioButton#0;class#BaseActions#0" />
-            <element signature="method#UploadFile#0;class#BaseActions#0" />
-            <element signature="method#DownloadFile#0;class#BaseActions#0" />
-            <element signature="method#DragAndDrop#0;class#BaseActions#0" />
-            <element signature="method#SleepFor#0;class#BaseActions#0" />
-            <element signature="method#isDisplayed#0;class#BaseActions#0" />
-            <element signature="method#isSelected#0;class#BaseActions#0" />
-            <element signature="method#isEnabled#0;class#BaseActions#0" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#4333#4334#0" expanded="true" />
+            <element signature="e#4415#4416#0" expanded="true" />
+            <element signature="e#6704#6705#0" expanded="true" />
             <element signature="e#6767#6768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -713,6 +784,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -732,6 +804,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.codeborne:phantomjsdriver:1.3.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

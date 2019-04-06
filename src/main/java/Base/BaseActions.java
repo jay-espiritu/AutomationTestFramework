@@ -132,16 +132,17 @@ public class BaseActions {
         driver.manage().timeouts().implicitlyWait(value, TimeUnit.SECONDS);
     }
 
-    protected void ExplicitWaitFor(By locator, int timeout)
-    {
-        WebDriverWait wait = new WebDriverWait(driver, timeout);
-        try
-        {
-            wait.until(ExpectedConditions.elementToBeClickable(locator));
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-    }
+    
+//    protected void ExplicitWaitFor(By locator, int timeout)
+//    {
+//        WebDriverWait wait = new WebDriverWait(driver, timeout);
+//        try
+//        {
+//            wait.until(ExpectedConditions.elementToBeClickable(locator));
+//        } catch (Exception e) {
+//            System.out.println(e);
+//        }
+//    }
 
     protected void SleepFor(int value) {
         try {
@@ -151,41 +152,41 @@ public class BaseActions {
         }
     }
 
-    /**
-     * Wait commands/methods
-     */
-    protected void WaitTillElementVisible(By locator, int timeout)
-    {
-        WebDriverWait wait = new WebDriverWait(driver, timeout);
-        try {
-            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-        } catch (Exception e)
-        {
-            System.out.println(e);
-        }
-    }
-
-    protected void WaitTillElementIsInvisible(By locator, int timeout)
-    {
-        WebDriverWait wait = new WebDriverWait(driver, timeout);
-        try {
-            wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
-        } catch (Exception e)
-        {
-            System.out.println(e);
-        }
-    }
-
-    protected void WaitTillElementIsClickable(By locator, int timeout)
-    {
-        WebDriverWait wait = new WebDriverWait(driver, timeout);
-        try {
-            wait.until(ExpectedConditions.elementToBeClickable(locator));
-        } catch (Exception e)
-        {
-            System.out.println(e);
-        }
-    }
+//    /**
+//     * Wait commands/methods
+//     */
+//    protected void WaitTillElementVisible(By locator, int timeout)
+//    {
+//        WebDriverWait wait = new WebDriverWait(driver, timeout);
+//        try {
+//           // wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+//        } catch (Exception e)
+//        {
+//            System.out.println(e);
+//        }
+//    }
+//
+//    protected void WaitTillElementIsInvisible(By locator, int timeout)
+//    {
+//        WebDriverWait wait = new WebDriverWait(driver, timeout);
+//        try {
+//            wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+//        } catch (Exception e)
+//        {
+//            System.out.println(e);
+//        }
+//    }
+//
+//    protected void WaitTillElementIsClickable(By locator, int timeout)
+//    {
+//        WebDriverWait wait = new WebDriverWait(driver, timeout);
+//        try {
+//            wait.until(ExpectedConditions.elementToBeClickable(locator));
+//        } catch (Exception e)
+//        {
+//            System.out.println(e);
+//        }
+//    }
 
 
     /**
