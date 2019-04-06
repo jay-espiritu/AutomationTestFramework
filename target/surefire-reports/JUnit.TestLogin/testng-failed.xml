@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JUnit.TestLogin]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="JUnit.TestLogin">
+        <methods>
+          <include name="succeeded"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- JUnit.TestLogin -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [JUnit.TestLogin] -->
