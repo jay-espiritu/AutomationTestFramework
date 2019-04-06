@@ -32,18 +32,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb5d2d2d-d896-432f-a00e-7f97531fdb58" name="DTFS-8 Add common actions (visit, click, etc)" comment="Added common actions in BaseAction class">
+      <change afterPath="$PROJECT_DIR$/target/TestFrameworkSelenium-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Base/BaseActions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/PageObject/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/JUnit/TestLogin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFrameworkSelenium-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PageObject/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JUnit/TestLogin.class" beforeDir="false" />
     </list>
     <list id="988eec22-9917-4675-b514-c95554b467e7" name="Default" comment="" />
     <list id="5a70dcc4-95a3-4f02-bb70-dea939f6ea38" name="DTFS-1 Configure Selenium to run on a single machine locally" comment="" />
@@ -77,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+            <state relative-caret-position="688">
+              <caret line="294" column="13" lean-forward="true" selection-start-line="294" selection-start-column="13" selection-end-line="294" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1435#1436#0" expanded="true" />
@@ -92,8 +92,26 @@
                 <element signature="method#isDisplayed#0;class#BaseActions#0" />
                 <element signature="method#isSelected#0;class#BaseActions#0" />
                 <element signature="method#isEnabled#0;class#BaseActions#0" />
-                <element signature="e#6716#6717#0" expanded="true" />
+                <element signature="e#6767#6768#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PackageInstall.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -111,6 +129,7 @@
     <findStrings>
       <find>find</find>
       <find>WebDriverWait</find>
+      <find>Actions</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,9 +145,9 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/CommonAction/BaseActions.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/JUnit/TestLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObject/Login.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Base/BaseActions.java" />
       </list>
     </option>
@@ -238,7 +257,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553467767037" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -477,8 +496,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.489533" visible="true" weight="0.17803837" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.510467" side_tool="true" visible="true" weight="0.17803837" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48970747" visible="true" weight="0.17803837" />
+      <window_info id="Structure" order="1" sideWeight="0.51029253" side_tool="true" visible="true" weight="0.17803837" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -487,15 +506,15 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.32719395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49733475" weight="0.3445287" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4968017" weight="0.3445287" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49573562" weight="0.29144096" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50586355" side_tool="true" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5079957" side_tool="true" weight="0.32719395" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49755502" weight="0.3281075" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49413645" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49200428" weight="0.32719395" />
       <window_info anchor="bottom" id="YouTrack" order="11" weight="0.32819724" />
       <window_info anchor="bottom" id="GitLabIntegration" order="12" sideWeight="0.4978678" weight="0.33694476" />
       <window_info anchor="bottom" id="TeamCity" order="13" sideWeight="0.49946696" weight="0.32827735" />
@@ -590,24 +609,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PackageInstall.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.0.1/selenium-support-3.0.1.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -628,10 +633,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PackageInstall.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Base/BaseActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+        <state relative-caret-position="688">
+          <caret line="294" column="13" lean-forward="true" selection-start-line="294" selection-start-column="13" selection-end-line="294" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1435#1436#0" expanded="true" />
@@ -645,7 +664,7 @@
             <element signature="method#isDisplayed#0;class#BaseActions#0" />
             <element signature="method#isSelected#0;class#BaseActions#0" />
             <element signature="method#isEnabled#0;class#BaseActions#0" />
-            <element signature="e#6716#6717#0" expanded="true" />
+            <element signature="e#6767#6768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -690,7 +709,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -707,7 +726,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

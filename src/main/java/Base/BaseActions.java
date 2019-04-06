@@ -13,7 +13,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -133,9 +132,15 @@ public class BaseActions {
         driver.manage().timeouts().implicitlyWait(value, TimeUnit.SECONDS);
     }
 
-    protected void ExplicitWaitFor(By locator, int timeout) {
+    protected void ExplicitWaitFor(By locator, int timeout)
+    {
         WebDriverWait wait = new WebDriverWait(driver, timeout);
-        wait.until(ExpectedConditions.elementToBeClickable(locator));
+        try
+        {
+            wait.until(ExpectedConditions.elementToBeClickable(locator));
+        } catch (Exception e) {
+            System.out.println(e);
+        }
     }
 
     protected void SleepFor(int value) {
@@ -181,6 +186,7 @@ public class BaseActions {
             System.out.println(e);
         }
     }
+
 
     /**
      * Assertion methods
@@ -252,7 +258,44 @@ public class BaseActions {
         }
     }
 
-    /**
-     * Keyboard/mouse commands/methods
-     */
+    protected void ScrollToBottomPage()
+    {
+        try {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+        } catch (Exception e)
+        {
+            System.out.println("An exception occurred performing JavaScript scroll to the bottom of the page");
+        }
+    }
+
+    protected void ScrollToTopPage()
+    {
+        try {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.scrollTo(0, 0);");
+        } catch (Exception e)
+        {
+            System.out.println("An exception occurred performing JavaScript scroll to the bottom of the page");
+        }
+    }
+
+    protected void ScrollToBottomPageSlowly(int value)
+    {
+        try {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            for (int second = 0; ; second++)
+            {
+                if (second >= value)
+                {
+                    break;
+                }
+                js.executeScript("window.scrollBy(0,2000)");
+                SleepFor(3000);
+            }
+        } catch (Exception e)
+        {
+            System.out.println("An exception occurred performing JavaScript scroll to the bottom of the page");
+        }
+    }
 }
